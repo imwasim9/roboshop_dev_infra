@@ -5,9 +5,11 @@ variable "sg_names" {
         #backend
         "catalogue", "cart", "user", "shipping", "payment",
         #frontend
-        "frontend",
+        "frontend", "frontend_alb",
         #bastion
-        "bastion"
+        "bastion",
+        #backend
+        "backend_alb"
   ]
 }
 

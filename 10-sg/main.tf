@@ -7,3 +7,14 @@ module "sg"{
     project_name = var.project_name
     environment = var.environment
 }
+
+
+
+# resource "aws_security_group_rule" "frontend_fronten_alb" {
+#   type              = "ingress"
+#   from_port         = 80
+#   to_port           = 80
+#   protocol          = "tcp"
+#   source_security_group_id = module.sg[10].sg_id  
+#   security_group_id = module.sg[9].sg_id
+# }
